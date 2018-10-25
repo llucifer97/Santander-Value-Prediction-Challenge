@@ -45,6 +45,50 @@ This is my solution of Santander value prediction challengeon Kaggle
 <H2>RESULT</H2>
 
 
+<table style="width:100%">
+  <tr>
+    <th>ALGORITHM</th>
+    <th>LINEAR_REGRESSION</th> 
+    <th>RANDOMFOREST</th>
+    <th>DECISIONTREE</th>
+    <TH>XGBOOST</TH>
+  </tr>
+  <tr>
+    <td>AUTOENCODER + PCA</td>
+    <td>2.8860584752682324e+2</td>
+    <td>3.0088379732492547</td>
+	<td>5.3416815129317925</td>
+    <td>0.9184666846350971</td>
+
+  </tr>
+  <tr>
+    <td>PCA</td>
+    <td>2.8860584752682324e+23</td>
+    <td>3.0088379732492547</td>
+    <td>5.3416815129317925</td>
+    <td>0.9184666846350971</td>
+
+  </tr>
+  <tr>
+    <td>KERNELPCA+AUTOENCODER</td>
+    <td>1.071997067379852</td>
+    <td>3.0088379732492547</td>
+    <td>2.1897963692832154</td>
+    <td>1.0717463743702915</td>
+
+  </tr>
+  <TR>
+   <td>NULL</td>
+  <td>5.215524806023528e+21</td>
+  <td>0.15023345767896787</td>
+  <td>1.7761094074203194e-09</td>
+  <td>0.6983542408556609</td>
+
+  
+  
+  
+  </TR>
+</table>
 
 
 
